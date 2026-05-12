@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.box {
+    background-color: chocolate;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+.box h3 {
+    padding-bottom: 10px;
+}
+.password-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.password-display input {
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 10px;
+}
+.password-display i {
+    cursor: pointer;
+}
+.btn {
+    margin-top:15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(54, 50, 50);
+}
